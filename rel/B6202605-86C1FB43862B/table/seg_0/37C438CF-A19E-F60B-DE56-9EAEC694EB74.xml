@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37C438CF-A19E-F60B-DE56-9EAEC694EB74" name="MANAGER">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>C4205D52-D61F-94D9-A4CC-7A0DFAD36F0B</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C3991574-CE20-A05E-A5D5-D29E3F6F891A">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>B27C44A0-E6BE-506D-9F31-9B40F812EEA8</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D39C3D90-019F-F0E7-D717-510824758578" referredColumn="098F7958-BF8C-F691-E436-C67EE0C96CE4"/>
+</associations>
+</Column>
+<Column name="ID1" id="A5971B73-4386-862F-DD99-49937EB71043">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>6F3408B1-5C24-F6C2-86AD-A2DF7E7B36FD</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="B6BE1C99-E302-9CF8-D0B2-8C179A4CFACC">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>2FC3AF7F-3214-47AE-8206-8DDFABBA626C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="2C9E7905-56CB-F17C-8DB5-AF62D0F004EB">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>2B3B7015-DB59-41A9-7B74-61BAC9A1074D</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dni" id="EC97478C-CEC2-51B4-BD11-070324923D53">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>297DCF51-E615-8C53-D3E8-66F357C8780F</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_name" id="C49FB3F0-8B85-8CA6-2BF8-A22F801AF3BB">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>4995BF62-1E45-8FC4-BC66-A9DDD84FB77D</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCEE5EB9-CF7F-6D09-869A-393FE3849FBC" name="MANAGER_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0D70FDD0-0A55-9A40-36BD-C099FBD6B42C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3991574-CE20-A05E-A5D5-D29E3F6F891A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="590E2E17-5549-C77D-1D29-5AA0FBDDC587" name="MANAGER_PKv1">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>18CA4821-2822-17DA-D122-30981B3F7DC6</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5971B73-4386-862F-DD99-49937EB71043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C017D1-3A8B-1B5F-2CDD-F62081110E21" name="MANAGER_EMPLOYEE_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>1DF606D3-8765-86C7-5B31-B83864350CD0</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3991574-CE20-A05E-A5D5-D29E3F6F891A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

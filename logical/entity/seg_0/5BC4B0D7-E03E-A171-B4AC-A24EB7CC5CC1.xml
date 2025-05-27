@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BC4B0D7-E03E-A171-B4AC-A24EB7CC5CC1" name="OTHER">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:26:52 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2E0710AC-FC1E-9F53-46EC-6F0D3F334D62</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="9FBC6C75-9BAD-E9C0-D62C-7C508B578E79">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:27:03 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BE8CA83-2D19-A733-497F-B84FB3C08F2B" name="OTHER PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:27:06 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FBC6C75-9BAD-E9C0-D62C-7C508B578E79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

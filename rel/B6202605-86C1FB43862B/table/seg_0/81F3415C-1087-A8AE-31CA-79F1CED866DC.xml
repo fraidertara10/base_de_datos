@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81F3415C-1087-A8AE-31CA-79F1CED866DC" name="OTHER">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>5BC4B0D7-E03E-A171-B4AC-A24EB7CC5CC1</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3D3FC5FC-92CC-516B-07E6-DCC799612ED3">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>B27C44A0-E6BE-506D-9F31-9B40F812EEA8</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC3105C4-7D90-0DEC-7907-8C94E05A4175" referredColumn="098F7958-BF8C-F691-E436-C67EE0C96CE4"/>
+</associations>
+</Column>
+<Column name="ID1" id="2B252ADC-96AB-6273-3301-857BC36EB3C9">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>9FBC6C75-9BAD-E9C0-D62C-7C508B578E79</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17EF40AC-2072-C47B-B522-49488E0307AA" name="OTHER_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0D70FDD0-0A55-9A40-36BD-C099FBD6B42C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3FC5FC-92CC-516B-07E6-DCC799612ED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="803A7A05-EE6B-23CD-F9EE-A513E88E3ED7" name="OTHER_PKv1">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>2BE8CA83-2D19-A733-497F-B84FB3C08F2B</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B252ADC-96AB-6273-3301-857BC36EB3C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD186A56-BFF7-F0C6-8E77-44B6ED96B688" name="OTHER_EMPLOYEE_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>B2DD1AB6-164A-C87B-7002-2E26874F9E30</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3FC5FC-92CC-516B-07E6-DCC799612ED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

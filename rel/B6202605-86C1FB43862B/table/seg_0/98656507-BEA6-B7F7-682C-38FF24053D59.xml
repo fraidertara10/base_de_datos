@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98656507-BEA6-B7F7-682C-38FF24053D59" name="ASSISTANT">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0F0F9BC4-6E0A-3FA2-54D2-1267C22B37E3</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="EB1B8ED8-48A7-3CEF-DEAA-3A506E07A9D5">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>B27C44A0-E6BE-506D-9F31-9B40F812EEA8</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBFA8483-C559-CFD8-1EE0-71D9955C85E1" referredColumn="098F7958-BF8C-F691-E436-C67EE0C96CE4"/>
+</associations>
+</Column>
+<Column name="ID1" id="4942EC33-FE1E-F60E-DAED-03752C4F5C5E">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>1489DD6C-9B76-77A2-9EC2-69EF1227C179</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="40C8913F-0494-5F13-EE1E-975D3365549C">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0B8FDB69-B5F5-E346-DBAB-89A1C4B68FE0</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dni" id="FD7C83C1-71A7-4AD5-C28D-C807BEC377C2">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>89AD2C54-514D-7E08-A59A-86F70725A891</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="F17FA05C-0E3F-B330-29CA-7914E272C269">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>4A5956DF-63DF-9E16-5A51-1C5644F08941</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="8AF53C34-8826-7D7F-AF16-15D083C05255">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>453BD671-7E32-04F8-A38A-ADC31607A09D</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAC3EE25-97BD-18C3-825B-D383A9CF3574" name="ASSISTANT_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0D70FDD0-0A55-9A40-36BD-C099FBD6B42C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB1B8ED8-48A7-3CEF-DEAA-3A506E07A9D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="562A7FC0-6AE7-87C6-2A85-21995A4B5105" name="ASSISTANT_PKv1">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0F0C520E-8378-29FD-433D-4AF08F07130A</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4942EC33-FE1E-F60E-DAED-03752C4F5C5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD80AF92-CCD4-9E81-07C8-DD4ADD4E611C" name="ASSISTANT_EMPLOYEE_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>E7EC4D6E-0787-32AC-D6ED-00550E547F1B</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB1B8ED8-48A7-3CEF-DEAA-3A506E07A9D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

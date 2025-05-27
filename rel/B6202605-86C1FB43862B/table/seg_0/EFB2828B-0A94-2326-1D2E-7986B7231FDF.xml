@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFB2828B-0A94-2326-1D2E-7986B7231FDF" name="SUPPLIER">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>76C33EF0-C67F-71CE-DA8C-5B7CE624DAE8</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8C75F52C-817C-CFC2-8DA6-619AB0B1D9B8">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>B6F4B852-76C3-3620-04C6-AB156EC2D03A</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="E2C6F4EF-2D63-2551-601B-66EC96B6471D">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0F221B13-C46C-CCF7-FE71-4B2CD0473F7C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="2F247EF8-89D3-80FD-F52A-0EFBAB11F48C">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>A87AD551-5AFA-CDF6-F5A0-F4CC51F9D65D</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="AE19E350-AE34-1437-C508-36E20D46A693">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>116766EC-1AC1-F9BC-95C5-A476F55593F7</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dni" id="6FFE9A4E-F30B-58CA-7B48-5B884A783D1E">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>BBFFA736-5617-12A0-FE3F-47D59E28CF48</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="006AA691-157B-99C3-CCB4-BA38530F8A9F" name="SUPPLIER_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>C5856F44-63A8-EF17-9D8C-3CEDF9355C23</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C75F52C-817C-CFC2-8DA6-619AB0B1D9B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

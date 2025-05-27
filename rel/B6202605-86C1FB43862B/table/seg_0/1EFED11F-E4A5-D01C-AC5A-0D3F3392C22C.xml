@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EFED11F-E4A5-D01C-AC5A-0D3F3392C22C" name="SALES_DETAILS">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>49F14452-5D3B-77F9-F81C-D05F866A158A</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="116ACAD0-E359-C26B-93C7-4E077FA945C8">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>1896CE89-35A3-D97C-9DA8-D99D7E01D5F1</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="93352D05-1273-B6AD-3737-87EEB025EA36">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>8D8C2D5A-0A37-83D1-E96C-71700090D465</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="547D97FA-EC71-4F38-8867-4229E138E726">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>6E802CF4-5A2D-4393-6FA8-10FDFA6423BD</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subtotal" id="86DD6BF5-0FB6-59F8-492B-19FDC8B49727">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>3D9F2025-4C6F-AD71-AC8A-8248007126F4</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_sale" id="37CEED50-BFDD-7BB4-BEE6-C4584C255D6E">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>D47DC025-65D9-D832-1BA6-0F22C5D086FA</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ID" id="F2C267EF-45C2-A36E-330B-95329EDB0B30">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>CD5F1E46-9614-EBEB-F982-96D4EDF07A09</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AC9243B-72E1-A6F9-EF30-2E3D9EA79AAD" referredColumn="CE4197DC-2801-B155-6E57-92AA97196866"/>
+</associations>
+</Column>
+<Column name="SALE_ID" id="BC8B8AD3-DD5B-7D5E-4800-53FE1707C31A">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>8F3CC64E-C063-5A6C-990A-625FBAC12250</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="693B9FA5-8F40-56C9-A490-314904C1A2A8" referredColumn="3F399196-E51A-CA02-C17A-C40880F97F18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="354E2EC1-EF22-8FD3-1B1D-3C6DE1D1C6B5" name="SALES_DETAILS_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>E085C88D-2DEB-D870-E15C-BCF623C13A3C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="116ACAD0-E359-C26B-93C7-4E077FA945C8"/>
+<colUsage columnID="F2C267EF-45C2-A36E-330B-95329EDB0B30"/>
+<colUsage columnID="BC8B8AD3-DD5B-7D5E-4800-53FE1707C31A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDEBD9EB-661E-ECB5-5C03-4B8981D322A1" name="SALES_DETAILS_PRODUCT_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>95C14965-CD21-0A1F-1F6C-3FAC6C7C38C8</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2C267EF-45C2-A36E-330B-95329EDB0B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32152DEB-D6BC-CB22-6FAF-5CC39C7F8B4F" name="SALES_DETAILS_SALE_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>2ACACBA5-D0DC-57C5-3B08-A90DCCEFBCCD</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC8B8AD3-DD5B-7D5E-4800-53FE1707C31A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

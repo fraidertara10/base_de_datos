@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9810323-6EF6-B890-540C-08198A30FA90" name="SALE">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>73D84601-2B99-4BB8-7FB7-DDB029776B76</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3F399196-E51A-CA02-C17A-C40880F97F18">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>2102A1F8-CB9B-D014-B843-A5ACEC1F0BBF</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_date" id="3FC56F47-3274-34DB-4220-81CB8573CBC7">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>6C01B144-1CE7-95F7-621E-7CA3E32C882E</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="0D5119D6-7D06-A9AD-A475-15E7C35BE6C4">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>3FA50268-DC48-3E24-3E51-CCA5E9082E00</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7A9F46D-094A-6CB5-9B91-7C619B52C37B" referredColumn="B8B74F8C-4C4D-A25C-0CF3-D9838587C00C"/>
+</associations>
+</Column>
+<Column name="EMPLOYEE_ID" id="238C3F3B-E93A-816A-B1CC-085DC59E277C">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>4BD01AC1-7520-D1C2-E4B2-0EDFADF9C0FB</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="671EE10E-F32D-4170-52CE-35D32E663A30" referredColumn="098F7958-BF8C-F691-E436-C67EE0C96CE4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="462EE365-E530-4C4F-46D7-5829C01AC095" name="SALE_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>D0D62FB4-82B8-75D3-BF75-18FD74980E69</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F399196-E51A-CA02-C17A-C40880F97F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EB8FA75-480D-5364-2085-787A48B48797" name="SALE_CUSTOMER_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>771E87EF-5B01-6995-7103-7E0ECB3127AB</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D5119D6-7D06-A9AD-A475-15E7C35BE6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99B0ED69-7C23-CE10-4526-1752D8BEDFF3" name="SALE_EMPLOYEE_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>64DA824D-0686-09B7-DF4E-5E7F93D2BB1D</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="238C3F3B-E93A-816A-B1CC-085DC59E277C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CEFB446-C7CB-B747-704B-3555BC08F657" name="SALE_BUY">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>DFE7F95B-0BE2-E1B8-9B36-895A6EB7A069</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="FA49BC59-1183-25F3-29CF-0575B07AC69A">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>D58FF0F5-647E-BAB4-3338-D2107B972F9B</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="40034506-2FE4-4B07-01C6-01594B84B598">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>9FAE01A8-A21E-2102-DD0C-46639D61908A</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="EC8294CB-BBF6-5B4E-A0FE-5F2892FB267B">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>009705C8-E797-859E-5054-BF40DD20AF46</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subtotal" id="848567BA-2D1E-A6C3-3E45-49145F2B4E1E">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>78D69821-F98F-2E59-59F6-2825CBD8263C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ID" id="178C655B-87E3-5DFB-B17F-FB278FA514E5">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>DCFA8B4A-B2E4-80CA-A673-68238821B679</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35127389-D729-016A-0080-D94C4FF8D04B" referredColumn="CE4197DC-2801-B155-6E57-92AA97196866"/>
+</associations>
+</Column>
+<Column name="BUY_ID" id="A8C99681-AF9C-16E5-D49B-C461B62A9A4D">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>C6BAD6C0-F73C-DEC2-5423-D1544231B83A</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F435F1D-0A9C-C2D0-DDC4-32404190155E" referredColumn="253D104E-1851-1541-53F9-383EAE7F0CE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DD7349E-B5A1-D08A-9BFD-4F8FF7188733" name="SALE_BUY_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>CF2A9A3A-00EA-CFF4-EF01-ACE5A91A3B1F</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA49BC59-1183-25F3-29CF-0575B07AC69A"/>
+<colUsage columnID="178C655B-87E3-5DFB-B17F-FB278FA514E5"/>
+<colUsage columnID="A8C99681-AF9C-16E5-D49B-C461B62A9A4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6ED615C-B2AC-453D-E585-690B6B8C671F" name="SALE_BUY_PRODUCT_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>A87B9EF1-0BCE-D27F-D0AD-CC508E187E2B</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="178C655B-87E3-5DFB-B17F-FB278FA514E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84028354-475C-861E-EFC8-C644A536212E" name="SALE_BUY_BUY_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>71E76788-79CB-347C-C649-75C62A99C231</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C99681-AF9C-16E5-D49B-C461B62A9A4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49F14452-5D3B-77F9-F81C-D05F866A158A" name="SALES DETAILS">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:08:15 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1896CE89-35A3-D97C-9DA8-D99D7E01D5F1">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:09:01 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="8D8C2D5A-0A37-83D1-E96C-71700090D465">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:09:12 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="6E802CF4-5A2D-4393-6FA8-10FDFA6423BD">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:09:36 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subtotal" id="3D9F2025-4C6F-AD71-AC8A-8248007126F4">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:09:52 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_sale" id="D47DC025-65D9-D832-1BA6-0F22C5D086FA">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:10:07 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="CD5F1E46-9614-EBEB-F982-96D4EDF07A09">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:30:37 UTC</createdTime>
+<generatorID>95C14965-CD21-0A1F-1F6C-3FAC6C7C38C8</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<referedAttribute>32E7F8BB-AD54-852A-15BF-D0557EA26220</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="8F3CC64E-C063-5A6C-990A-625FBAC12250">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:30:47 UTC</createdTime>
+<generatorID>2ACACBA5-D0DC-57C5-3B08-A90DCCEFBCCD</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<referedAttribute>2102A1F8-CB9B-D014-B843-A5ACEC1F0BBF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E085C88D-2DEB-D870-E15C-BCF623C13A3C" name="SALES DETAILS PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:09:09 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1896CE89-35A3-D97C-9DA8-D99D7E01D5F1</attributeRef>
+<attributeRef>CD5F1E46-9614-EBEB-F982-96D4EDF07A09</attributeRef>
+<attributeRef>8F3CC64E-C063-5A6C-990A-625FBAC12250</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

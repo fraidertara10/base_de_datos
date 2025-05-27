@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4205D52-D61F-94D9-A4CC-7A0DFAD36F0B" name="MANAGER">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:20:04 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2E0710AC-FC1E-9F53-46EC-6F0D3F334D62</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6F3408B1-5C24-F6C2-86AD-A2DF7E7B36FD">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:20:49 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="2FC3AF7F-3214-47AE-8206-8DDFABBA626C">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:21:02 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="2B3B7015-DB59-41A9-7B74-61BAC9A1074D">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:21:17 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dni" id="297DCF51-E615-8C53-D3E8-66F357C8780F">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:21:33 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last name" id="4995BF62-1E45-8FC4-BC66-A9DDD84FB77D">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:38:39 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18CA4821-2822-17DA-D122-30981B3F7DC6" name="MANAGER PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:21:00 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F3408B1-5C24-F6C2-86AD-A2DF7E7B36FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="058F538F-1EFA-1925-EFB6-E6FBAA685F82" name="PRODUCT">
+<createdBy>fraider</createdBy>
+<createdTime>2025-02-17 20:05:11 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="32E7F8BB-AD54-852A-15BF-D0557EA26220">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:05:33 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="8ABF56D2-6EC1-B8CF-B63B-0CBA12C9E177">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:05:48 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="59AB2EEA-1EC6-D72D-F149-55DC0DEB5BF5">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:06:00 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="F2B66E1E-4A40-54D1-593F-D439DC076978">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:06:14 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stock" id="3EFD687E-B3F4-812F-921D-8052DFDCFCF4">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:06:28 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="0D81B082-D6B4-B17E-8206-9CCDBC8B3274">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:31:22 UTC</createdTime>
+<generatorID>AE2A9B7E-EC92-C4ED-E5F7-498E46EC3056</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<referedAttribute>70803EC5-B83C-9CE6-9618-D7678C095440</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="3CBFDA2B-B8D6-2947-9B5D-C2E5B7B7C09B">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:32:56 UTC</createdTime>
+<generatorID>38B145BB-B21F-32BF-48F8-6F30D40AC6EA</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<referedAttribute>B6F4B852-76C3-3620-04C6-AB156EC2D03A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D051B86D-95EA-0401-080F-237DBFD71709" name="PRODUCT PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:05:44 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32E7F8BB-AD54-852A-15BF-D0557EA26220</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

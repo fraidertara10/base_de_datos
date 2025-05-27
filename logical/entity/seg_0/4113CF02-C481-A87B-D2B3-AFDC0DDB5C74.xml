@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4113CF02-C481-A87B-D2B3-AFDC0DDB5C74" name="ACCOUNTANT">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:22:12 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2E0710AC-FC1E-9F53-46EC-6F0D3F334D62</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="21A0E6EE-CADC-10C0-4107-9F458A4B5A89">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:23:48 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="6624D3D9-63EC-942A-E089-90C21F7D5F69">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:23:59 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="45A311D4-1424-0DC4-EC2B-8B5C4924C6F2">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:24:07 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dni" id="6D0173FF-3FFB-791D-EEB8-075DCF6147FB">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:24:16 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB992E9B-0356-7332-AB19-3AC75B9EB16E" name="ACCOUNTANT PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:23:57 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21A0E6EE-CADC-10C0-4107-9F458A4B5A89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

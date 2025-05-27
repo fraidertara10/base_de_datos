@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="057C690F-CE3C-7CA5-5EC3-6640B96128E9" name="EMPLOYEE">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>2E0710AC-FC1E-9F53-46EC-6F0D3F334D62</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="098F7958-BF8C-F691-E436-C67EE0C96CE4">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>B27C44A0-E6BE-506D-9F31-9B40F812EEA8</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID1" id="6010B351-D36B-5644-88A8-7AE30E7778A1">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>7C8728F7-C621-3CBA-BFD9-26E1A281A142</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB7C9463-DC9A-B2D1-384B-E0D255CCC3EB" referredColumn="A5971B73-4386-862F-DD99-49937EB71043"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE539FBB-33BD-7B8F-630A-1D81014A432C" name="EMPLOYEE_PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>0D70FDD0-0A55-9A40-36BD-C099FBD6B42C</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098F7958-BF8C-F691-E436-C67EE0C96CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A0A6186-1357-CAE7-F6B7-0933CEF0ACBC" name="EMPLOYEE_MANAGER_FK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-30 19:35:10 UTC</createdTime>
+<generatorID>B39E5BB6-4E79-65B4-C01B-F0BEB313B4BE</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6010B351-D36B-5644-88A8-7AE30E7778A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

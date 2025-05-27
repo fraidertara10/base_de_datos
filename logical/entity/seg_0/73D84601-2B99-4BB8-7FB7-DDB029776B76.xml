@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73D84601-2B99-4BB8-7FB7-DDB029776B76" name="SALE">
+<createdBy>fraider</createdBy>
+<createdTime>2025-02-17 20:30:14 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="2102A1F8-CB9B-D014-B843-A5ACEC1F0BBF">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:07:19 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sale_date" id="6C01B144-1CE7-95F7-621E-7CA3E32C882E">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:07:27 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="3FA50268-DC48-3E24-3E51-CCA5E9082E00">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:31:02 UTC</createdTime>
+<generatorID>771E87EF-5B01-6995-7103-7E0ECB3127AB</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<referedAttribute>B88184F0-08E6-9DA6-0174-BF09D41F46D9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="4BD01AC1-7520-D1C2-E4B2-0EDFADF9C0FB">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:38:25 UTC</createdTime>
+<generatorID>64DA824D-0686-09B7-DF4E-5E7F93D2BB1D</generatorID>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<referedAttribute>B27C44A0-E6BE-506D-9F31-9B40F812EEA8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0D62FB4-82B8-75D3-BF75-18FD74980E69" name="SALE PK">
+<createdBy>fraider</createdBy>
+<createdTime>2025-03-13 12:07:24 UTC</createdTime>
+<ownerDesignName>DDM</ownerDesignName>
+<engineerTo>
+<item key="B6202605-0B31-881C-EE8B-86C1FB43862B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2102A1F8-CB9B-D014-B843-A5ACEC1F0BBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
